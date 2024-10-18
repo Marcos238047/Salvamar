@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    width: 100vw;
+    background-image: url(Imagenes/Elfondodelmartes.jpg);
+}
+ul{
+    font-family: "Afacad Flux";
+    font-size: 22px;
+    margin-left: 20PX;
+    margin-right: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+p{
+    font-family: "Afacad Flux";
+    font-size: 22px;
+    margin-left: 20PX;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+h1{
+    font-family: "Irish Grover";
+    font-size: 48px;
+}
+h2{
+    font-family: "irish grover";
+    font-size: 40px;
+}
+header{
+    width: 1105px;
+    height: 316px;
+    background-color: rgba(0, 0, 139, 0.587);
+    margin-left: 30vw;
+}
+nav{
+    width: 1105px;
+    height: 111px;
+    background-color: rgba(4, 4, 71, 0.883);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin-left: 30vw;
+    z-index: 2;
+}
+section{
+    margin-left: 30vw;
+}
+img{
+    border-radius: 20px;
+}
+.imagen img{
+    animation: burbujea 2s infinite alternate;
+    position: relative;
+}
+.imagers img{
+    animation: burbujea 2s infinite alternate;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Afacad Flux";
+    font-size: 22px;
+    font-weight: 500;
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 1s;
+}
+a:hover{
+    background-color: rgba(240, 248, 255, 0.988);
+    transform: scale(1.2);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.burbujas{
+    position: absolute;
+    z-index: 1;
+}
+.burbujas .bur1{
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-left: 230px;
+    margin-top: 20px;
+    
+}
+.burbujas .bur2{
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-left: -495px;
+    margin-top: 300px;
+}
+.burbujas .bur3{
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-left: 192px;
+    margin-top: 700px;
+}
+.burbujas .bur4{
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-left: -153px;
+    margin-top: 1135px;
+}
+.burbujas .bur5{
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-left: 116px;
+    margin-top: 1875px;
+}
+.burbujas .bur6{
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-left: -345px;
+    margin-top: 2330px;
+}
+.burbujas .bur7{
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-left: 200px;
+    margin-top: 2750px;
+}
+.imagenlogo{
+    width: 309px;
+    height: 287px;
+    background-color: rgba(240, 248, 255, 0.800);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 180px;
+}
+footer{
+    margin-left: 30wv;
+}
+.imagenlogo img{
+    width: 250px;
+    height: 250px;
+}
+.titulo{
+    width: 677px;
+    height: 269px;
+    background-color: rgba(240, 248, 255, 0.315);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 180px;
+}
+.primero{
+    width: 1105px;
+    height: 750px;
+    background-color: rgba(0, 0, 139, 0.315);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.segundo{
+    width: 1105px;
+    height: 506px;
+    background-color: rgba(0, 0, 139, 0.315);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tercero{
+    width: 1105px;
+    height: 611px;
+    background-color: rgba(0, 0, 139, 0.315);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cuarto{
+    width: 1105px;
+    height: 421px;
+    background-color: rgba(0, 0, 139, 0.315);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quinto{
+    width: 1105px;
+    height: 186px;
+    background-color: rgba(0, 0, 139, 0.315);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sexto{
+    width: 1105px;
+    height: 560px;
+    background-color: rgba(0, 0, 139, 0.315);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primero .texto{
+    width: 510px;
+    height: 700px;
+    background-color: rgba(240, 248, 255, 0.315);
+    text-align: center;
+    border-radius: 20px;
+}
+.segundo .texto{
+    width: 510px;
+    height: 500px;
+    background-color: rgba(240, 248, 255, 0.315);
+    text-align: center;
+    border-radius: 20px;
+}
+.tercero .texto{
+    width: 510px;
+    height: 600px;
+    background-color: rgba(240, 248, 255, 0.315);
+    text-align: center;
+    border-radius: 20px;
+}
+.cuarto .texto{
+    width: 510px;
+    height: 400px;
+    background-color: rgba(240, 248, 255, 0.315);
+    text-align: center;
+    border-radius: 20px;
+}
+.quinto .texto{
+    width: 1050px;
+    height: 150px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border-radius: 20px;
+    
+}
+.quinto .texto h2{
+    margin: 5px;
+}
+.quinto .texto p{
+    margin: 5px;
+}
+.sexto .texto{
+    width: 1080px;
+    height: 540px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border-radius: 20px;
+    display: flex;
+}
+.sexto .texto ul{
+    width: 550px;
+    height: auto;
+}
+.imagers{
+    margin-top: 130px;
+}
+.acomodo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.acomodo h2{
+    margin: 10px;
+}
+@keyframes burbujea{
+    from{
+        bottom: 0;
+    }
+    to{
+        bottom: 30px;
+    }
+}
